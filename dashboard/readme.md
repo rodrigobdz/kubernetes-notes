@@ -30,7 +30,13 @@
 ## Usage
 
 ```sh
+# Change namespace
+kubens kubernetes-dashboard
 
+# Port-forwarding for dashboard
+kubectl proxy
+
+# Open http://localhost:8001
 ```
 
 ## Related Links
